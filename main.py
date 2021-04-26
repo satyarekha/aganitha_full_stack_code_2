@@ -90,7 +90,7 @@ if __name__ == "__main__":
                 print("Unknown Class")
 
         elif choice == 2:
-            name = input("Class name to be deleted: ")
+            name = input("Object name to be deleted: ")
             if name not in objs:
                 print("Object with this name is not created")
                 continue
